@@ -1,0 +1,119 @@
+{
+  "all_features": [
+    "Age",
+    "Gender",
+    "adult/guardian?",
+    "risky_run",
+    "play_road",
+    "use_mobile",
+    "talking.",
+    "follow_friends",
+    "look_before_crossing.",
+    "designated crosswalks",
+    "wait_adult",
+    "confident_no infrastructure",
+    "footpath",
+    "zebra crossing",
+    "speed breakers",
+    "guard rails",
+    "road width",
+    "condition of road",
+    "vehicle speed low",
+    "less traffic",
+    "vehicles stop",
+    "traffic police",
+    "school zone signboards",
+    "traffic signals",
+    "satisfied_near_school.  2",
+    "satisfied_safety_provisions3",
+    "confiden_school_environment   4"
+  ],
+  "selected_features": [
+    "Age",
+    "adult/guardian?",
+    "risky_run",
+    "play_road",
+    "use_mobile",
+    "talking.",
+    "follow_friends",
+    "look_before_crossing.",
+    "designated crosswalks",
+    "wait_adult",
+    "confident_no infrastructure",
+    "footpath",
+    "condition of road",
+    "vehicle speed low",
+    "confiden_school_environment   4"
+  ],
+  "feature_importances": [
+    {
+      "Feature": "play_road",
+      "Importance": 0.187624689324112
+    },
+    {
+      "Feature": "follow_friends",
+      "Importance": 0.17758406257587275
+    },
+    {
+      "Feature": "risky_run",
+      "Importance": 0.14464165210053279
+    },
+    {
+      "Feature": "talking.",
+      "Importance": 0.11203451320687421
+    },
+    {
+      "Feature": "use_mobile",
+      "Importance": 0.09624638671153793
+    },
+    {
+      "Feature": "confident_no infrastructure",
+      "Importance": 0.05598403759755225
+    },
+    {
+      "Feature": "wait_adult",
+      "Importance": 0.050707738740531354
+    },
+    {
+      "Feature": "look_before_crossing.",
+      "Importance": 0.04895605077587202
+    },
+    {
+      "Feature": "designated crosswalks",
+      "Importance": 0.042276791810560425
+    },
+    {
+      "Feature": "condition of road",
+      "Importance": 0.01771489582726544
+    },
+    {
+      "Feature": "confiden_school_environment   4",
+      "Importance": 0.016374335563987128
+    },
+    {
+      "Feature": "vehicle speed low",
+      "Importance": 0.014702936419832592
+    },
+    {
+      "Feature": "footpath",
+      "Importance": 0.014082339511701012
+    },
+    {
+      "Feature": "Age",
+      "Importance": 0.012990762151141661
+    },
+    {
+      "Feature": "adult/guardian?",
+      "Importance": 0.008078807682626497
+    }
+  ],
+  "metrics": {
+    "accuracy": 0.9048,
+    "cv_accuracy": 0.9429,
+    "macro_recall": 0.8800,
+    "recall": 0.9200,
+    "precision": 0.7931,
+    "f1_score": 0.8519,
+    "roc_auc": 0.9824
+  }
+}
